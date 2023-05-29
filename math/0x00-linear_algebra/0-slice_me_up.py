@@ -1,18 +1,8 @@
 #!/usr/bin/env python3
-
-"""This code selects the first two, last five, and 2nd through 6th numbers of an array."""
-
 arr = [9, 8, 2, 3, 9, 4, 1, 0, 3]
-
-"""Select the first two numbers of the array."""
 arr1 = arr[:2]
-
-"""Select the last five numbers of the array."""
 arr2 = arr[-5:]
-
-"""Select the 2nd through 6th numbers of the array."""
 arr3 = arr[1:6]
-
 print("The first two numbers of the array are: {}".format(arr1))
 print("The last five numbers of the array are: {}".format(arr2))
 print("The 2nd through 6th numbers of the array are: {}".format(arr3))
