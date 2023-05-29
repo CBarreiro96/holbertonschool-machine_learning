@@ -2,5 +2,6 @@
 import numpy as np
 matrix = np.array([[1, 3, 9, 4, 5, 8], [2, 4, 7, 3, 4, 0], [0, 3, 4, 6, 1, 5]])
 middle_start = matrix.shape[1]// 2 - 1
-the_middle = matrix[:, middle_start:middle_start + 2]
+middle_end = middle_start + 2
+the_middle = matrix[:, middle_start:middle_end]
 print("The middle columns of the matrix are: {}".format(the_middle))
